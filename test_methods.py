@@ -21,3 +21,20 @@ def test_perimeter():
     
     # then the perimeter should be 14
     assert output == 14
+
+
+def test_multiplication():
+    output = methods.multiplication(1,1)
+    assert output == 1
+
+def test_sum():
+    output = methods.sum(1,2)
+    assert output == 3
+
+def test_division():
+    output = methods.division(81, 9)
+    assert output == 9
+
+def test_sub():
+    output = methods.sub(100,9)
+    assert output == 91
